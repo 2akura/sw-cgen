@@ -145,7 +145,7 @@ renderAcc();
 
 document.getElementById("addAccess").addEventListener("click", () => {
   mAccess.push({ type: "", interface: "", mdaccess: "", mdacc:"" });
-  renderInterfaces();
+  renderAcc();
 });
 
 //////////////////////////////////////////////////////////////////////////////////////////
